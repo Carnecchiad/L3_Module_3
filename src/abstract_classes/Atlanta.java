@@ -1,7 +1,9 @@
 package abstract_classes;
-public class SanDiego extends City{
 
-	public SanDiego(int population, double growthRate) {
+public class Atlanta extends City
+{
+
+	public Atlanta(int population, double growthRate) {
 		super(population, growthRate);
 		// TODO Auto-generated constructor stub
 	}
@@ -9,7 +11,7 @@ public class SanDiego extends City{
 	@Override
 	double getAnnualTaxes() {
 		// TODO Auto-generated method stub
-		return (getPopulation()*getGrowthRate()) + 1000000;
+		return getPopulation()*getGrowthRate()*(getGrowthRate()*2);
 	}
-	
+
 }

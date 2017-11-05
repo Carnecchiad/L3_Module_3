@@ -1,3 +1,4 @@
+
 package interfaces;
 
 public abstract class SpecialString implements TextFunkifier{
